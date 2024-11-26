@@ -3,24 +3,28 @@ body {
 }
 
 .navbar {
-    background-color: #e15f41;
+    background-color: #000000;
 }
 
 .nav .nav-link.active {
-    background-color: #fff;
-    color: #e15f41;
+    background-color: #f3dad5;
+    color: #000000;
 }
 
 .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
-    color: #fff;
-}
-
-.navbar-brand {
-    font-family: Pacifico, cursive;
+    color: #f3dad5;
 }
 
 .navbar-toggler {
-    background-color: #ffeae6;
+    background-color: #f3dad5;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-nos {
+    background-color: #f3dad5;
 }
