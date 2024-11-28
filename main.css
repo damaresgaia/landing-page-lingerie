@@ -34,7 +34,27 @@ body {
     color: #37393B;
 }
 
-.nav-lancamentos .nav-link.active {
+.nav-lancamentos .nav-link.active,
+#fale-conosco button {
     background-color: #f3dad5;
     color: #000000;
+}
+
+.bi-instagram {
+    background: linear-gradient(45deg, #405DE6, #833AB4, #E1306C, #F77737, #FFC837);
+    -webkit-background-clip: text; /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Deixa o fundo visível */ 
+}
+
+.bi-whatsapp {
+    color: #25D366; /* Cor oficial do WhatsApp */    
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
 }
